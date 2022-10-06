@@ -1,0 +1,36 @@
+Assignment 1
+6.1
+step1:START
+step2:Get the input from the user
+step3:process the input
+step4:iterate if a age is greater than 18
+step5:print eligible for voting
+step6:else print not eligible for voting
+step7:STOP
+
+
+6.3
+step1:START
+step2:Get the input from user
+step3:process the input
+step4:Declare variable remainder
+step5:initialize reverse=0
+step6:Iterate while( number!=0)
+step7:reminder=number%10.5
+step8:reverse=reverse*10+remainder
+step9:number/=10
+step10:print the reverse number 
+step11:stop
+
+
+6.5
+step1:START
+step2:Take the string as CITIUSTECH
+step3:initialize vowel = a e i o u A E I O U
+step4:initialize variable count=0
+step5:check if any vowel is present in the string
+step6:if present count++
+step7:print the total number of vowels that is count
+step8:STOP
+
+

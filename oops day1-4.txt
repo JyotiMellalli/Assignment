@@ -1,0 +1,10 @@
+Assignment 1
+4.
+step1:START
+step2:Get the input from the user
+step3:process the input
+step4:initialize fact variable to 1
+step5:iterate for loop from 1 to number
+step6:perform fact equal to fact*i
+step7:print factorial of a number
+step8:STOP

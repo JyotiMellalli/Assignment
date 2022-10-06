@@ -1,0 +1,11 @@
+Assignment 1
+3.
+Get the input from user
+process the input
+Declare variable remainder
+initialize reverse to 0
+Iterate while loop until number not equal to 0
+calculate remainder by performing mod 10 of number
+calculate reverse by performing reverse*10+remainder
+calculate number by dividing 10 and assign to number variable
+print the reverse number 

@@ -1,0 +1,8 @@
+Assignment 1
+5.
+Take the string as CITIUSTECH
+initialize vowel to a e i o u A E I O U
+initialize variable count to zero
+check if any vowel is present in the string
+if present increment the count
+print the total number of vowels that is count

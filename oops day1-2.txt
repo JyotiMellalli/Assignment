@@ -1,0 +1,15 @@
+Assignment 1
+2.
+step1:START
+step2:enter the input from user
+step3:process the input
+step4:Initialize a variable c to 0
+step5:Iterate a for loop from 2 to num/2
+step6:if num is divisible by loop iterator,then increment c
+step7:if the c is equal to 0
+step8:return num is prime
+step9:else num is not a prime 
+step10:STOP
+
+
+

@@ -1,0 +1,21 @@
+Assignment 1
+7.2
+Enter the input from user
+process the input
+Initialize a variable c to zero
+Iterate a for loop from 2 to num divisible by 2
+if num is divisible by loop iterator,then increment c
+if the c is equal to Zero
+return num is prime
+else num is not a prime 
+
+
+
+7.4
+
+Get the input from the user
+process the input
+initialize fact variable to one
+iterate for loop from one to number
+perform fact equal to fact*i
+print factorial of a number

@@ -1,0 +1,7 @@
+Assignment 1
+1.
+Get the input from the user
+process the input
+if age is greater than 18
+print eligible for voting
+else print not eligible for voting 
