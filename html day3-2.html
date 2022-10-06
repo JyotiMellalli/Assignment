@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #invalidateMessage {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+        userName:<input type="text" id="userName">
+        <p  id="invalidateMessage"></p>
+        passWord:<input type="password" id="passWord">
+        <p id="invalidateMessage"></p>
+
+        <input type="submit" value="submit" id="button" disabled onclick="login()">
+
+   <script>
+    document.getElementById('userName').addEventListener('click',function(){
+            let user1 = document.getElementById('userName').value;
+            let invalidateMessage=document.getElementById('invalidateMessage');
+            for(let i=0;i<userName.length;i++){
+                if(userName.charAt(i)==""){
+                    invalidateMessage.innerHTML="Invalid Credentials";
+                }
+                else{
+                    invalidateMessage.innerHTML="";
+                }
+            }
+        })
+            let user2 = document.getElementById('passWord').value;
+            let invalidateMessage=document.getElementById('invalidMessage1');
+            for(let i=0;i<userName.length;i++){
+                if(passWord.charAt(i)==""){
+                    invalidateMessage.innerHTML="Invalid Credentials";
+                }
+                else{
+                    invalidateMessage.innerHTML="";
+                }
+            }
+            document.getElementById('userName').addEventListener('focusout',function(){
+            let userName=document.getElementById('userName').value;
+            if(userName.length>2){
+                document.getElementById('button').disabled=false;
+            }
+            })
+            function login() {
+      let user1 = document.getElementById('userName').value;
+      let user2 = document.getElementById('passWord').value;
+      var user3=user1.toLowerCase();
+      var user4=user2.toLowerCase();
+      if (user3 == 'citiustech' && user4== 'citiustech') {
+        window.open("https://www.google.com/", ' ', 'toolbar=no');
+      }
+      else {
+        invalidateMessage.innerHTML = "error message";
+      }
+
+    }
+        
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #invalidateMessage {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form>
+    userName:<input type="text" id="userName">
+    passWord:<input type="password" id="passWord">
+
+    <button type="button" onclick="login()">signin</button>
+    <h1 id="invalidateMessage"></h1>
+  </form>
+
+  <script>
+    function login() {
+      let user1 = document.getElementById('userName').value;
+      let user2 = document.getElementById('passWord').value;
+      var user3=user1.toLowerCase();
+      var user4=user2.toLowerCase();
+      if (user3 == 'citiustech' && user4== 'citiustech') {
+        window.open("https://www.google.com/", ' ', 'toolbar=no');
+      }
+      else {
+        invalidateMessage.innerHTML = "error message";
+      }
+
+    }
+
+
+
+  </script>
+
+</body>
+
+</html>
