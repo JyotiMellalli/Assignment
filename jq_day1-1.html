@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    Email:<input type="text" id="jq" placeholder="Enter email id"><br><br>
+    <button type="button" id="btn">show Email</button><br><br>
+    <div id="ass" style="height:20px; width:400px;background-color:rgb(238, 236, 236);padding:10px;"></div>
+    <script>
+        $(function () {
+            $('#btn').click(function(){
+                let result=document.getElementById('jq').value;
+                $('#ass').text(result);
+            })
+            
+        })
+    </script>
+</body>
+</html>
